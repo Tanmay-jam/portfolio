@@ -37,11 +37,4 @@ export const projects: Project[] = [
     tags: "Kotlin · llama.cpp · Agents",
     hue: "accent",
   },
-  {
-    title: "Graph-RAG Document Q&A",
-    description:
-      "FAISS retrieval with COMET query expansion and a cross-encoder reranker.",
-    tags: "RAG · FAISS · Reranking",
-    hue: "lav",
-  },
 ];

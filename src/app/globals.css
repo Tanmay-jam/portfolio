@@ -173,6 +173,7 @@ a.sc-in { color: var(--tf); }
 .pc { position: relative; min-width: 0; display: flex; flex-direction: column; gap: 10px; padding: 28px; border: 1px solid var(--line); border-radius: 22px; background: radial-gradient(circle at 100% 0%, color-mix(in srgb, var(--h) 26%, transparent), transparent 62%), var(--card); backdrop-filter: blur(8px); transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s; }
 .pc:hover { transform: translateY(-5px); border-color: color-mix(in srgb, var(--h) 70%, transparent); box-shadow: 0 26px 60px -28px var(--h); }
 .pc.wide { min-height: 220px; }
+@media (min-width: 900px) { .pc.wide { grid-column: 1 / -1; min-height: 0; } }
 .pc h3 { margin: 0; font-family: var(--f-disp); font-weight: 700; font-size: clamp(24px, 2vw, 30px); line-height: 1.15; letter-spacing: -0.02em; }
 .pc p { margin: 0; font-size: 15px; color: var(--mut); }
 .pc .tags { font-family: var(--f-mono); font-size: 12px; color: var(--acct); }
