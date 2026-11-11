@@ -232,7 +232,7 @@ textarea.fld { resize: vertical; min-height: 140px; }
 .prose pre { overflow-x: auto; padding: 18px 20px; border-radius: 16px; background: #10111a; color: #eceef6; font-size: 14px; line-height: 1.6; }
 .prose pre code { padding: 0; background: none; border: 0; color: inherit; }
 .prose img { max-width: 100%; border-radius: 16px; }
-.prose table { width: 100%; border-collapse: collapse; font-size: 15.5px; }
+.prose table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; font-size: 15.5px; }
 .prose th, .prose td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
 .prose hr { border: 0; border-top: 1px solid var(--line); }
 
