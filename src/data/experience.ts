@@ -28,7 +28,7 @@ export const experience: Job[] = [
       "Evaluated caption positioning with macro precision/recall, orchestrated with Airflow.",
       "Classified on-screen text in videos using Gemini.",
       "Implemented GitHub Actions workflow to build and publish a versioned Python package to GCP Artifact Registry.",
-      "Built Looker/BigQuery dashboards.",
+      "Built Looker dashboards with BigQuery.",
     ],
   },
   {
@@ -40,7 +40,7 @@ export const experience: Job[] = [
     short: "Software Engineer",
     logo: "volkswagen",
     points: [
-      "Delivered a predictive-maintenance PoC on in-house sensor data: remaining useful life regression and Autoencoder-based degradation onset detection, with the threshold set at the 95th percentile of healthy reconstruction error.",
+      "Delivered a predictive maintenance PoC on in-house sensor data: remaining useful life regression and Autoencoder based degradation onset detection, with the threshold set at the 95th percentile of healthy reconstruction error.",
       "Handled SAP BASIS operations alongside.",
     ],
   },
@@ -53,7 +53,7 @@ export const experience: Job[] = [
     short: "ML Project Intern",
     mono: "IL",
     points: [
-      "Worked on a Driver-Monitoring System with on-edge face detection using YOLOv4-tiny fine-tuned for a custom class.",
+      "Worked on a Driver Monitoring System with on-edge face detection using YOLOv4-tiny fine-tuned for a custom face class using Darknet.",
       "Extended it to embedding-based driver identification using FaceNet with similarity search, achieving ≈93% accuracy on a balanced class distribution.",
     ],
   },

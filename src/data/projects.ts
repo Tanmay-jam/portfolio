@@ -37,4 +37,18 @@ export const projects: Project[] = [
     tags: "Kotlin · llama.cpp · Agents",
     hue: "accent",
   },
+  {
+    title: "Burnt-in Subtitle Remover",
+    description:
+      "Burnt-in subtitle removal for ASR caption evaluation: PaddleOCR, Gemini classification and tiered fuzzy matching, cutting average WER by about 23% on heavily subtitled videos.",
+    tags: "Warner Bros · Internal",
+    hue: "lime",
+  },
+  {
+    title: "Driver Identification System",
+    description:
+      "On-edge face detection with YOLOv4-tiny fine-tuned for a custom face class using Darknet, extended to driver identification with FaceNet embeddings and similarity search at about 93% accuracy on a balanced class distribution.",
+    tags: "Intangles Labs · Internal",
+    hue: "lav",
+  },
 ];
