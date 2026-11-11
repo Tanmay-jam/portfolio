@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Brand from "./Brand";
+import Logo from "./Logo";
 import { experience } from "@/data/experience";
 import { getFeaturedPosts } from "@/lib/blog";
 
@@ -43,7 +44,7 @@ export default function FeaturedStrip() {
           <div className="prev-list">
             {experience.map((j) => (
               <a key={j.id} className="co" href={`#${j.id}`}>
-                <span className="lg">{j.logo ? <Brand name={j.logo} /> : <i>{j.mono}</i>}</span>
+                <span className="lg">{j.img ? <Logo src={j.img} /> : j.logo ? <Brand name={j.logo} /> : <i>{j.mono}</i>}</span>
                 <span>
                   <b>{j.company}</b>
                   <em>{j.short}</em>

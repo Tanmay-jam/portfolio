@@ -7,7 +7,8 @@ export type Job = {
   period: string;
   place: string;
   short: string; // "Previously at" row subtitle
-  logo?: BrandKey;
+  logo?: BrandKey; // simple-icons brand (Volkswagen)
+  img?: string; // file in public/logos, original colours
   mono?: string; // letter badge when there is no logo
   points: string[];
 };
@@ -21,7 +22,7 @@ export const experience: Job[] = [
     period: "Oct 2025 – Jul 2026",
     place: "Bangalore",
     short: "ML Engineer Intern · 2025–26",
-    logo: "warnerbros",
+    img: "wbd.png",
     points: [
       "Built burnt-in subtitle removal for ASR caption evaluation: PaddleOCR, Gemini classification and tiered fuzzy matching. About 23% lower average WER on heavily subtitled videos (21-video test set).",
       "Evaluated caption positioning with macro precision/recall, orchestrated with Airflow.",
