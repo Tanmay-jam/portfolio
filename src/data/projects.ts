@@ -12,14 +12,14 @@ export const projects: Project[] = [
   {
     title: "Golden Response Generation for Empathetic Dialogue",
     description:
-      "A RAG pipeline grounded in psychology literature, with COMET commonsense inference as the retrieval signal.",
+      "A RAG pipeline grounded in psychology literature, with COMET query expansion and reranking, plus a generator fine-tuned on synthetic data.",
     hue: "accent",
     wide: true,
   },
   {
     title: "GPT-2 Playground",
     description:
-      "A GPT built from scratch with a live demo that includes speculative decoding.",
+      "A GPT built from scratch with a live demo that includes experiments for token generation, constrained decoding and speculative decoding.",
     tags: "PyTorch · Streamlit",
     hue: "lav",
     links: [
@@ -38,10 +38,17 @@ export const projects: Project[] = [
     hue: "accent",
   },
   {
-    title: "Graph-RAG Document Q&A",
+    title: "Burnt-in Subtitle Remover",
     description:
-      "FAISS retrieval with COMET query expansion and a cross-encoder reranker.",
-    tags: "RAG · FAISS · Reranking",
+      "Burnt-in subtitle removal for ASR caption evaluation: PaddleOCR, Gemini classification and tiered fuzzy matching, cutting average WER by about 23% on heavily subtitled videos.",
+    tags: "Warner Bros · Internal",
+    hue: "lime",
+  },
+  {
+    title: "Driver Identification System",
+    description:
+      "On-edge face detection with YOLOv4-tiny fine-tuned for a custom face class using Darknet, extended to driver identification with FaceNet embeddings and similarity search at about 93% accuracy on a balanced class distribution.",
+    tags: "Intangles Labs · Internal",
     hue: "lav",
   },
 ];
