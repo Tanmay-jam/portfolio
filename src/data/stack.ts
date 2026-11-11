@@ -1,38 +1,37 @@
-import type { BrandKey } from "@/lib/brand-icons";
+// `logo` is a file in public/logos (original brand colours). `logoDark` swaps in on the dark theme.
+// Items without a logo get a small letter badge.
+export type StackItem = { name: string; logo?: string; logoDark?: string; badge?: string };
 
-export type StackItem = { name: string; icon?: BrandKey; badge?: string };
-
-// `icon` shows the brand logo; items without one get a small letter badge.
 export const stack: { group: string; items: StackItem[] }[] = [
   {
     group: "Languages",
     items: [
-      { name: "Python", icon: "python" },
-      { name: "C++", icon: "cplusplus" },
-      { name: "SQL", badge: "SQL" },
-      { name: "LookML", icon: "looker" },
+      { name: "Python", logo: "python.png" },
+      { name: "C++", logo: "cplusplus.png" },
+      { name: "SQL", logo: "postgresql.png" },
+      { name: "LookML", logo: "looker.svg" },
     ],
   },
   {
     group: "ML & AI",
     items: [
-      { name: "PyTorch", icon: "pytorch" },
-      { name: "llama.cpp", badge: "ll" },
-      { name: "Hugging Face", icon: "huggingface" },
-      { name: "LangChain", icon: "langchain" },
-      { name: "LangGraph", badge: "LG" },
-      { name: "Google ADK", badge: "AD" },
+      { name: "PyTorch", logo: "pytorch.svg" },
+      { name: "llama.cpp", logo: "llama-light.svg", logoDark: "llama-dark.svg" },
+      { name: "Hugging Face", logo: "huggingface.svg" },
+      { name: "LangChain", logo: "langchain.svg" },
+      { name: "LangGraph", logo: "langgraph.svg" },
+      { name: "Google ADK", logo: "adk.png" },
     ],
   },
   {
     group: "Data, Cloud & DevOps",
     items: [
-      { name: "Airflow", icon: "apacheairflow" },
-      { name: "Docker", icon: "docker" },
-      { name: "GCP", icon: "googlecloud" },
-      { name: "GitHub Actions", icon: "githubactions" },
-      { name: "BigQuery", icon: "googlebigquery" },
-      { name: "Pydantic", icon: "pydantic" },
+      { name: "Airflow", logo: "airflow.png" },
+      { name: "Docker", logo: "docker.svg" },
+      { name: "GCP", logo: "gcp.svg" },
+      { name: "GitHub Actions", logo: "githubactions.svg" },
+      { name: "BigQuery", logo: "bigquery.svg" },
+      { name: "Pydantic", logo: "pydantic.svg" },
       { name: "FAISS", badge: "FA" },
     ],
   },

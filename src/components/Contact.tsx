@@ -53,7 +53,7 @@ export default function Contact() {
             </a>
             <a className="ib" href={site.github} target="_blank" rel="noopener noreferrer" title="GitHub" aria-label="GitHub"><Brand name="github" mono /></a>
             <a className="ib" href={site.linkedin} target="_blank" rel="noopener noreferrer" title="LinkedIn" aria-label="LinkedIn"><Brand name="linkedin" mono /></a>
-            <a className="ib" href={site.resume} download title="Download résumé" aria-label="Download résumé">
+            <a className="ib" href={site.resume} download title="Download resume" aria-label="Download resume">
               <svg className="st" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 20h14" /></svg>
             </a>
           </div>

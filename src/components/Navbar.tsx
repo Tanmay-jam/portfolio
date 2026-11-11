@@ -22,7 +22,7 @@ export default function Navbar() {
             <Link key={l.href} href={l.href} className={`navl${l.always ? "" : " hide-sm"}`}>{l.label}</Link>
           ))}
           <ThemeToggle />
-          <a className="resume-btn" href={site.resume} download>Résumé ↓</a>
+          <a className="resume-btn" href={site.resume} download>Resume ↓</a>
         </nav>
       </header>
     </div>

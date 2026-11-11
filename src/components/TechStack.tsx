@@ -1,4 +1,4 @@
-import Brand from "./Brand";
+import Logo from "./Logo";
 import { stack } from "@/data/stack";
 
 export default function TechStack() {
@@ -16,7 +16,7 @@ export default function TechStack() {
               <div className="chips">
                 {g.items.map((it) => (
                   <span key={it.name} className="chip">
-                    {it.icon ? <Brand name={it.icon} /> : <i>{it.badge}</i>}
+                    {it.logo ? <Logo src={it.logo} dark={it.logoDark} /> : <i>{it.badge}</i>}
                     {it.name}
                   </span>
                 ))}

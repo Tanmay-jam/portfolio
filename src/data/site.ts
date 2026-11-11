@@ -7,8 +7,8 @@ export const site = {
   email: "tanmaymsp@gmail.com",
   github: "https://github.com/Tanmay-jam",
   linkedin: "https://www.linkedin.com/in/tanmay-pawar0",
-  // Drop your PDF at public/Tanmay_Pawar_Resume.pdf
-  resume: "/Tanmay_Pawar_Resume.pdf",
+  // Drop your PDF at public/Tanmay_pawar_resume.pdf
+  resume: "/Tanmay_pawar_resume.pdf",
   tagline:
     "I build GenAI, RAG and MLOps systems, from an LLM running inside a phone's memory budget to pipelines that retrain themselves.",
   description:
