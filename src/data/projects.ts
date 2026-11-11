@@ -12,14 +12,14 @@ export const projects: Project[] = [
   {
     title: "Golden Response Generation for Empathetic Dialogue",
     description:
-      "A RAG pipeline grounded in psychology literature, with COMET commonsense inference as the retrieval signal.",
+      "A RAG pipeline grounded in psychology literature, with COMET query expansion and reranking, plus a generator fine-tuned on synthetic data.",
     hue: "accent",
     wide: true,
   },
   {
     title: "GPT-2 Playground",
     description:
-      "A GPT built from scratch with a live demo that includes speculative decoding.",
+      "A GPT built from scratch with a live demo that includes experiments for token generation, constrained decoding and speculative decoding.",
     tags: "PyTorch · Streamlit",
     hue: "lav",
     links: [
